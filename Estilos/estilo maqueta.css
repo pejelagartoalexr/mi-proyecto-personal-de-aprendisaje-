@@ -1,0 +1,193 @@
+body{
+    background: linear-gradient(135deg, #f38ecc, #6d5bf6, #cf84faf5);
+}
+#container{
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header{
+    padding: 10px;
+    color: black;
+    float: none;
+    text-align: center;
+}
+#navBar{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    float: none;
+    text-align: center;
+    border-radius: 70px;
+}
+#leftmenu{
+    padding: 15px;
+    background-color: rgba(255,255, 255, 0.5);
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+    animation: slideIn 1s ease-out;
+}
+#rightmenu{
+    padding: 15px;
+    background-color: rgba(255,255, 255, 0.5);
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+    animation: slideIn 1s ease-out;
+}
+#content{
+    padding: 10px;
+    color: white;
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-bottom: -1000px ;
+    padding-bottom: 1000px ;
+    
+}
+.sega-info p::before {
+    content: "• "; /* Punto personalizado antes del texto */
+    color: rgb(144, 0, 255); /* Color del punto */
+    font-weight: bold;
+    margin-right: 5px; /* Espacio entre el punto y el texto */
+}
+.consolas p::before{
+    content: "• "; /* Punto personalizado antes del texto */
+    color: rgb(144, 0, 255); /* Color del punto */
+    font-weight: bold;
+    margin-right: 5px;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes slideUp {
+    0% { transform: translateY(20px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+p {
+  animation: slide-up 1s ease-in-out;
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+

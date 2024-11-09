@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/estilo video.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Video Maquetacion Html</title>
+</head>
+<body>
+    <h2><Center>Video utilizado</Center></h2>
+    <center><video id="demo" src="videos/Shadow the Hedgehog (2005) Opening Cinematic _ 8K _ 60 FPS _ 4_3 Aspect Ratio _ AI Upscaled _ - scanVis0r (720p60, h264, youtube).mp4" width="800" height="800" ></video></center>
+    <div>
+        <center>
+         <button class="btn btn-Dark" onclick="document.getElementById('demo').play()"><i class="bi bi-play-circle-fill" ></i></button>
+         <button class="btn btn-Dark" onclick="document.getElementById('demo').pause()"><i class="bi bi-pause-circle-fill" ></i></button>
+         <button class="btn btn-Dark" onclick="document.getElementById('demo').volume +=0.1"><i class="bi bi-volume-up-fill"  ></i></button>
+         <button class="btn btn-Dark" onclick="document.getElementById('demo').volume -=0.1"><i class="bi bi-volume-down-fill"></i></button>
+        </center>
+    </div>
+</body>
+</html>
